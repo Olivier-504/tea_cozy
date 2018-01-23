@@ -1,0 +1,35 @@
+
+html {
+  background-color: black;
+}
+
+.header {
+  position: fixed;
+  display: inline-flex;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+
+}
+
+.left {
+  display: inline-flex;
+  height: 50px;
+  padding-right: 400px;
+  padding-left: 10px;
+}
+
+nav {
+  font-family: Helvetica;
+  width: 360px;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 22px;
+  opacity: 0.9;
+  padding-left: 130px;
+}
+
+#navi a {
+  color: seashell;
+}
