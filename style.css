@@ -47,14 +47,14 @@ nav {
 
 .main {
   height: 700px;
+  padding-top: 69px;
   text-align: center;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  color: seashell;
 }
 
-.middle {
-  width: 1200px;
-  z-index: 5;
-  text-align: center;
+#txt {
   background-color: black;
-  color: seashell;
-  border: thin solid seashell;
+  margin-top: 245px;
 }
