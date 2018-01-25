@@ -1,4 +1,5 @@
 
+/* General Styling */
 html {
   background-color: black;
   font-family: Helvetica;
@@ -13,6 +14,8 @@ body {
   padding-left: 0;
   margin-left: 0;
 }
+
+/* Header */
 
 .header {
   position: fixed;
@@ -45,6 +48,8 @@ nav {
   color: seashell;
 }
 
+/* Main content styling */
+
 .main {
   height: 700px;
   padding-top: 69px;
@@ -56,5 +61,30 @@ nav {
 
 #txt {
   background-color: black;
-  margin-top: 245px;
+  margin-top: 265px;
+}
+
+.secondary {
+  width: 1200px;
+  align-items: center;
+  text-align: center;
+}
+
+#month {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  border: thin solid seashell;
+}
+
+#container1 {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  border: thin solid green;
 }
