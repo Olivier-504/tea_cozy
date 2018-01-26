@@ -64,6 +64,8 @@ nav {
   margin-top: 265px;
 }
 
+/* Secondary content styling */
+
 .secondary {
   width: 1200px;
   align-items: center;
@@ -86,16 +88,42 @@ nav {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  border: thin solid green;
 }
 
-/*
-#container2 {
+/* Tertiary content styling */
+
+.tertiary {
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.tertiary h2 {
+  padding-top: 75px;
+}
+
+.lefty {
   display: block;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
 }
 
+.mid {
+  display: block;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
 
-/*
-#txt1 {
-  text-align: center;
+.righty {
+  display: block;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.bottom {
+  width: 1000px;
+  display: inline-flex;
+  justify-content: space-between;
 }
