@@ -78,13 +78,24 @@ nav {
 .images img {
   height: 200px;
   width: 300px;
-  border: thin solid seashell;
 }
 
-#container1 {
+.images .container1 {
+  width: 1000px;
   display: inline-flex;
   align-items: center;
-  text-align: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   border: thin solid green;
+}
+
+/*
+#container2 {
+  display: block;
+}
+
+
+/*
+#txt1 {
+  text-align: center;
 }
