@@ -127,3 +127,13 @@ nav {
   display: inline-flex;
   justify-content: space-between;
 }
+
+.last {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
